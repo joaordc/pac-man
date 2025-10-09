@@ -5,10 +5,16 @@ Implementação em C do famoso jogo de arcade Pac Man, popularmente conhecido no
 ## Instalação e uso 
 
 Crie uma cópia local desse repositório: 
-```git clone https://github.com/joaordc/pac-man.git```
+```shell
+git clone https://github.com/joaordc/pac-man.git
+```
 
-Em /pac-man, compile pacman.c
-```gcc pacman.c - pacman -lraylib -lwinmm -lgdi32 -lopeng132```
+Em /pac-man, compile pacman.c:
+```shell
+gcc pacman.c - pacman -lraylib -lwinmm -lgdi32 -lopeng132
+```
 
 Em seguida, rode o arquivo binário:
-```./pacman```
+```shell
+./pacman
+```
